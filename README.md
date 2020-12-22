@@ -82,9 +82,10 @@ Feature: Search by keyword
   Class GetPropertyFromPropertiesFile used to read properties from file pet_token.properties
   
   Sample Properties :
-    Pet_base_url_PetDetails=https://petstore.swagger.io/v2/pet/
+  
+    Pet_base_url_PetDetails
     PetFindByStatus=findByStatus?status=
-    Pet_Add_New=https://petstore.swagger.io/v2/pet
+    Pet_Add_New
 
 # POJO Class as Setter and getter for creating JSON 
   These classes are designed to be small and self-contained, which makes them more stable and easier to maintain.
@@ -97,7 +98,8 @@ We can manage the scenarios using tags associated with scenario in cucumber feat
 
 $ mvn clean verify
 
-#Test Report
+# Executing Report
+
 The test results will be recorded in the target/site/serenity directory.
 
 # Addd New Feature with Examples 

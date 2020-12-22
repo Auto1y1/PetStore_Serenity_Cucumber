@@ -1,7 +1,7 @@
 # PetStore_Serenity_Cucumber
 
 
-#The project directory structure
+# The Project directory structure
 
 The project has build scripts for both Maven  and follows the standard directory structure used in most Serenity projects:
 
@@ -16,7 +16,7 @@ src
              
 #Serenity 2.0.91 introduced integration with Maven, Cucumber , rest-assured
 
-#The sample scenario
+# The sample scenario
 
 Both variations of the sample project uses the sample Cucumber scenario. In this scenario, We are searching PET using PET ID:
 
@@ -60,7 +60,7 @@ Feature: Search by keyword
         assertEquals(strStatus, actualValueStatus);
     }
 
-
+# The sample Steps
 #These classes are declared using the Serenity @Steps annotation, shown below:
 
     @Steps
@@ -77,7 +77,15 @@ Feature: Search by keyword
     // Step to validate Response code
     // Step to create Put Request using Rest Assured
     // Step to Delete Pet Details using Rest Assured
-    
+
+# To Read Properties
+  Class GetPropertyFromPropertiesFile used to read properties from file pet_token.properties
+  
+  Sample Properties :
+    Pet_base_url_PetDetails=https://petstore.swagger.io/v2/pet/
+    PetFindByStatus=findByStatus?status=
+    Pet_Add_New=https://petstore.swagger.io/v2/pet
+
 # POJO Class as Setter and getter for creating JSON 
   These classes are designed to be small and self-contained, which makes them more stable and easier to maintain.
   Classs : PetDetails
@@ -92,8 +100,8 @@ $ mvn clean verify
 #Test Report
 The test results will be recorded in the target/site/serenity directory.
 
-#To Add New Feature 
-1. Create New Feature File under along with Scenarios, Tags
+# Addd New Feature with Examples 
+1. Create New Feature File under along with Scenarios, Tags and examples 
 
  + resources
       + features                  Feature files
@@ -102,5 +110,8 @@ The test results will be recorded in the target/site/serenity directory.
 3. Implement the Serenity Steps which all are requried 
 
  + java                        Test runners and supporting code
-
-
+    + runners.Pet
+        + steps                 
+          + Serenity            Steps for the Serenity using @Steps annotation 
+        + StepDefination        Step Defination 
+    + RunnerClass               Using @RunWith(CucumberWithSerenity.class)

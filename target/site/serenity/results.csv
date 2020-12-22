@@ -1,7 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Pet API Create, Read , Update and Delete Operations","A api GET call with Pet API with valid end point and parameters as petId should returns pet details","FAILURE","2020-12-22T11:16:38.979Z[Europe/London]","0.0","6.53"
-"Pet API Create, Read , Update and Delete Operations","A api GET call with Pet API with valid end point and incorrect parameters","SUCCESS","2020-12-22T11:16:46.459Z[Europe/London]","0.0","0.72"
-"Pet API Create, Read , Update and Delete Operations","A api GET call with Pet API with valid end point and correct status parameters","SUCCESS","2020-12-22T11:16:47.197Z[Europe/London]","0.0","2.26"
-"Pet API Create, Read , Update and Delete Operations","A api POST call with Pet API with valid end point and correct body parameters to add new pet","SUCCESS","2020-12-22T11:16:49.461Z[Europe/London]","0.0","4.44"
-"Pet API Create, Read , Update and Delete Operations","A api Put call with Pet API with valid end point and correct body parameters to add new pet","SUCCESS","2020-12-22T11:16:53.903Z[Europe/London]","0.0","7.03"
-"Pet API Create, Read , Update and Delete Operations","A api Delete call with Pet API with valid end point and correct body parameters to add new pet","SUCCESS","2020-12-22T11:17:00.942Z[Europe/London]","0.0","4.01"

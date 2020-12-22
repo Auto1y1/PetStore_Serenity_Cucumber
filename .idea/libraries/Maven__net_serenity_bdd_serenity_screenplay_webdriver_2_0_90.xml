@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.serenity-bdd:serenity-screenplay-webdriver:2.0.90">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay-webdriver/2.0.90/serenity-screenplay-webdriver-2.0.90.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay-webdriver/2.0.90/serenity-screenplay-webdriver-2.0.90-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-screenplay-webdriver/2.0.90/serenity-screenplay-webdriver-2.0.90-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

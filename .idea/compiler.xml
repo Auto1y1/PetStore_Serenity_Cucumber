@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cucumber-rest-atc" />
+        <module name="serenity-rest-starter" />
+        <module name="TestPetstore" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cucumber-rest-atc" target="1.8" />
+      <module name="TestPetstore" target="1.8" />
+      <module name="serenity-rest-starter" target="1.8" />
+      <module name="StudentApp" target="1.8" />
+      <module name="TestPetstore" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="TestPetstore" options="" />
+      <module name="serenity-rest-starter" options="-parameters" />
+    </option>
+  </component>
+</project>

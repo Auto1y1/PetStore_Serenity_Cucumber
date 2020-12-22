@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Pet API Create, Read , Update and Delete Operations","A api GET call with Pet API with valid end point and parameters as petId should returns pet details","FAILURE","2020-12-22T11:16:38.979Z[Europe/London]","0.0","6.53"

@@ -1,6 +1,8 @@
-Feature: Get Details of the Pets either by petId or status
-  In order to select the type of Pet I want to search
-  A request to Pet API with valid end point always return response in with all pet details
+Feature: Pet API Create, Read , Update and Delete Operations
+  In order to Add new Pet using POST request on the pet api
+  In order to select the type of Pet I want to search using GET request
+  In order to delete Pet using DELETE request on the pet api
+  In order to update the Pet details using PUT request on the pet api
 
   Scenario Outline: A api GET call with Pet API with valid end point and parameters as petId should returns pet details
     Given get endpoint of Pet API
@@ -9,9 +11,8 @@ Feature: Get Details of the Pets either by petId or status
     Then Pet API returns the valid pet details of <name> and <status>
     Examples:
       | PET ID |ResponseCode|name                |status         |
-      |10      | 200        | janu               |    available  |
+      |10      | 200        | shadow             |    available  |
       |5       | 200        | My Updated Pet Name|    pending    |
-
 
   Scenario Outline: A api GET call with Pet API with valid end point and incorrect parameters
     Given get endpoint of Pet API

@@ -105,15 +105,15 @@ The test results will be recorded in the target/site/serenity directory.
 # Addd New Feature with Examples 
 1. Create New Feature File under along with Scenarios, Tags and examples 
 
- + resources
-      + features                  Feature files
+       + resources
+            + features                  Feature files
 
 2. Implement the Step Definations with requried logic and assertions 
 3. Implement the Serenity Steps which all are requried 
 
- + java                        Test runners and supporting code
-    + runners.Pet
-        + steps                 
-          + Serenity            Steps for the Serenity using @Steps annotation 
-        + StepDefination        Step Defination 
-    + RunnerClass               Using @RunWith(CucumberWithSerenity.class)
+       + java                        Test runners and supporting code
+          + runners.Pet
+              + steps                 
+                + Serenity            Steps for the Serenity using @Steps annotation 
+              + StepDefination        Step Defination 
+          + RunnerClass               Using @RunWith(CucumberWithSerenity.class)

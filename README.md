@@ -92,8 +92,15 @@ $ mvn clean verify
 #Test Report
 The test results will be recorded in the target/site/serenity directory.
 
-#Sample Automation Execution Results 
+#To Add New Feature 
+1. Create New Feature File under along with Scenarios, Tags
 
+ + resources
+      + features                  Feature files
 
+2. Implement the Step Definations with requried logic and assertions 
+3. Implement the Serenity Steps which all are requried 
+
+ + java                        Test runners and supporting code
 
 

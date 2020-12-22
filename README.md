@@ -79,28 +79,33 @@ Both variations of the sample project uses the sample Cucumber scenario. In this
     // Step to Delete Pet Details using Rest Assured
 
 # To Read Properties
-  Class GetPropertyFromPropertiesFile used to read properties from file pet_token.properties
+  Class GetPropertyFromPropertiesFile used to read properties
   
-  Sample Properties :
-  
-    Pet_base_url_PetDetails
-    PetFindByStatus=findByStatus?status=
-    Pet_Add_New
+      file : pet_token.properties
+
+      Sample Properties :
+
+        Pet_base_url_PetDetails
+        PetFindByStatus=findByStatus?status=
+        Pet_Add_New
 
 # POJO Class as Setter and getter for creating JSON 
   These classes are designed to be small and self-contained, which makes them more stable and easier to maintain.
-  Classs : PetDetails
+  
+      Classs : PetDetails
 
 # Executing the tests
 
 To run the project, you can either just run the CucumberTestSuite test runner class, or run either mvn verify from the command line.
 We can manage the scenarios using tags associated with scenario in cucumber feature file
 
-$ mvn clean verify
+    $ mvn clean verify
 
 # Executing Report
 
 The test results will be recorded in the target/site/serenity directory.
+
+    \target\site\serenity\index.html    
 
 # Addd New Feature with Examples 
 1. Create New Feature File under along with Scenarios, Tags and examples 

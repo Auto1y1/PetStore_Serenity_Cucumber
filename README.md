@@ -20,16 +20,16 @@ The project has build scripts for both Maven  and follows the standard directory
 
 Both variations of the sample project uses the sample Cucumber scenario. In this scenario, We are searching PET using PET ID:
 
-Feature: Search by keyword
+    Feature: Search by keyword
 
-  Scenario Outline: A api GET call with Pet API with valid end point and parameters as petId should returns pet details
-    Given get endpoint of Pet API
-    When a request is sent to Pet API with pet id <PET ID>
-    Then Pet API returns response response code <ResponseCode>
-    Then Pet API returns the valid pet details of <name> and <status>
-    Examples:
-      | PET ID |ResponseCode|name                |status         |
-      |5       | 200        | My Updated Pet Name|    pending    |
+      Scenario Outline: A api GET call with Pet API with valid end point and parameters as petId should returns pet details
+        Given get endpoint of Pet API
+        When a request is sent to Pet API with pet id <PET ID>
+        Then Pet API returns response response code <ResponseCode>
+        Then Pet API returns the valid pet details of <name> and <status>
+        Examples:
+          | PET ID |ResponseCode|name                |status         |
+          |5       | 200        | My Updated Pet Name|    pending    |
       
 
 

@@ -5,14 +5,14 @@
 
 The project has build scripts for both Maven  and follows the standard directory structure used in most Serenity projects:
 
-src
-  + main
-  + test
-    + java                        Test runners and supporting code
-    + resources
-      + features                  Feature files
-        + Pet                     Feature file subdirectories
-             pets_get.feature     Pet Feature
+    src
+      + main
+      + test
+        + java                        Test runners and supporting code
+        + resources
+          + features                  Feature files
+            + Pet                     Feature file subdirectories
+                 pets_get.feature     Pet Feature
              
 #Serenity 2.0.91 introduced integration with Maven, Cucumber , rest-assured
 

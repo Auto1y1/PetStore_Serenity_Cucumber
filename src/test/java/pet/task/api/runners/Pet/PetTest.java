@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 //Cucumber With Serenity Runner to Execute Rest ASSURED TEST
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features="src\\test\\resources\\features")
-      //  tags = {"@DryRunOnly"})
+        features="src\\test\\resources\\features",
+        tags = {"@DryRunOnly"})
 public class PetTest {
 }

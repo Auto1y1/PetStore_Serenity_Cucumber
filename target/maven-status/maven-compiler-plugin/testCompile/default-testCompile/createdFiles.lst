@@ -1,0 +1,5 @@
+pet\task\api\runners\Pet\steps\PetStepDefinition.class
+pet\task\api\runners\Pet\steps\serenity\PetDetails.class
+pet\task\api\utlis\GetPropertyFromPropertiesFile.class
+pet\task\api\runners\Pet\PetTest.class
+pet\task\api\runners\Pet\steps\serenity\PetSteps.class
